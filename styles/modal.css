@@ -245,7 +245,7 @@
 }
 
 .alert {
-  color: limegreen;
+  color: lightgreen;
   font-size: 22px;
   font-family: var(--text);
   font-weight: 600;
