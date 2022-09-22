@@ -1,0 +1,255 @@
+/* Close Jewelery Button */
+.close-btn {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: #ff5b5b;
+  color: var(--white);
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  text-transform: uppercase;
+  font-family: var(--text);
+}
+
+/* Close Gowns Button */
+.close-gowns {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: #ff5b5b;
+  color: var(--white);
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  text-transform: uppercase;
+  font-family: var(--text);
+}
+
+/* Close Footwear Button */
+.close-footwear {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: #ff5b5b;
+  color: var(--white);
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  text-transform: uppercase;
+  font-family: var(--text);
+}
+
+/* Gowns Modal */
+.gowns-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  max-width: 100%;
+  height: 700px;
+  overflow-y: scroll;
+  background-color: var(--white);
+  border-radius: 10px;
+  z-index: 12;
+  padding: 20px;
+  display: none;
+}
+
+/* Footwear Modal */
+.footwear-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  max-width: 100%;
+  height: 700px;
+  overflow-y: scroll;
+  background-color: var(--white);
+  border-radius: 10px;
+  z-index: 12;
+  padding: 20px;
+  display: none;
+}
+
+/* Modal Items */
+
+.cart-row {
+  margin-bottom: 30px;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-item-img img {
+  width: 150px;
+  max-width: 100%;
+  height: 150px;
+  
+}
+
+.modal-item-title {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: var(--text);
+  color: #724665;
+  margin-bottom: 10px;
+}
+
+.border-line {
+  width: 80px;
+  height: 3px;
+  background-color: #724665;
+  margin-bottom: 1rem;
+  margin-right: 40px;
+}
+
+.modal-item-content {
+  font-family: var(--text);
+  color: #724665;
+  width: 220px;
+  font-size: 20px;
+}
+
+.modal-item-btn {
+  font-size: 22px;
+  color: var(--white);
+  background-color: #724665;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: linear ease-in 0.3s;
+}
+
+.modal-item-btn:hover {
+  background-color: #58314d;
+}
+
+.total-order {
+  text-align: right;
+}
+
+.total-order-btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--accent1);
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: linear ease-in 0.3s;
+}
+
+.fw-order-btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--accent1);
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: linear ease-in 0.3s;
+}
+
+.gowns-order-btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--accent1);
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: linear ease-in 0.3s;
+}
+
+/* SHOPPING CART MODAL */
+.shop-cart-modal {
+  width: 24rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  box-shadow: 4px 7px 5px 0px rgba(179,177,177,0.75);
+  -webkit-box-shadow: 4px 7px 5px 0px rgba(179,177,177,0.75);
+  -moz-box-shadow: 4px 7px 5px 0px rgba(179,177,177,0.75);
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: 100;
+  background-color: var(--white);
+  display: none;
+}
+
+.cart-order-title {
+  font-size: 28px;
+  font-family: var(--text);
+  font-weight: 600;
+  color: var(--textColor);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-order-items {
+  font-family: var(--text);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--textColor);
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.cart-order-total {
+  font-size: 22px;
+  font-family: var(--text);
+  font-weight: 700;
+}
+
+.cart-grand-total {
+  font-size: 24px;
+  font-family: var(--text);
+  font-weight: 600;
+  color: var(--textColor);
+  margin-bottom: 20px;
+}
+
+.complete-order {
+  font-size: 18px;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  color: var(--white);
+  margin-top: 20px;
+  background-color: var(--textColor);
+  padding: 0.8rem 2rem;
+  border: none;
+}
+
+.close-cart {
+  font-size: 18px;
+  color: #333;
+  font-family: var(--text);
+  float: right;
+  cursor: pointer;
+}
+
+.alert {
+  color: limegreen;
+  font-size: 22px;
+  font-family: var(--text);
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}

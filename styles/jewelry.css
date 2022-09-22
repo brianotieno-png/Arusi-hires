@@ -1,0 +1,62 @@
+/* JEWELLERY SECTION */
+.jewellery {
+  width: 100%;
+  background-color: var(--accent2);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.jewellery-wrapper {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jewel-img img {
+  width: 356px;
+  max-width: 100%;
+  border-radius: 200px 200px 0px 0px;
+  filter: drop-shadow(15px 15px #ffaa99);
+}
+
+.jewel-title {
+  font-size: 36px;
+  font-family: var(--text);
+  font-weight: 700;
+  color: #724665;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+.jewel-description {
+  font-size: 24px;
+  font-family: var(--text);
+  color: #724665;
+  width: 460px;
+  margin-bottom: 40px;
+}
+
+.jewel-btn {
+  width: 305px;
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: var(--accent2);
+  background-color: #724665;
+  padding: 1.2rem 4rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.jewel-btn:hover {
+  background-color: transparent;
+  border: 1px solid #724665;
+  color: #724665;
+}
